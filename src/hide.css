@@ -1,0 +1,8 @@
+.myUsers .mymodeSideBar {
+    display: none !important;
+    transition: 0.4s ease-in;
+}
+
+.myUsers .CodeMirror {
+    min-width: 100vw !important;
+}

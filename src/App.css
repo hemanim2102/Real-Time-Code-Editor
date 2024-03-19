@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #F7FCFE;
+  --light-grey: #DEDEDE;
+  --base-color: #ACFADF;
+  --base-color2: #70dab5;
+  --base-color-dull: #6eccab;
+  --dull-pink: #cfa3bb;
+  --base-orange-light: #eb8870;
+  --base-orange: #ee6c4d;
+  --dark: #02011e;
+  --second-dark: rgba(35, 45, 63, 0.8);
+
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  font-size: 1.1rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.btn {
+  border: none;
+  padding: 10px;
+  height: 45px;
+  width: 100px;
+  border-radius: 15px;
+  font-size: 1rem;
+  font-weight: 550;
+  letter-spacing: 0.6px;
+  cursor: pointer;
+  transition: all 0.3 ease-in;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.CodeMirror {
+  height: 93vh !important;
+  max-width: 84vw;
+  font-size: 1.1rem;
+  background-color: var(--dark) !important;
+}
+
+.cm-s-moxer .cm-comment {
+  color: #757c9a !important;
+  font-style: italic;
+}
+
+.cm-s-moxer .CodeMirror-matchingbracket {
+  outline: 1px solid grey;
+  color: white !important;
+  background: rgba(10, 82, 82, 0.5);
+  text-decoration: none !important;
+}
+
+.cm-s-moxer .cm-string-2 {
+  color: #71a47a !important;
+}
